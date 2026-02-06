@@ -1,8 +1,8 @@
 <div align="center">
 
-# ✨ Portfolio
+# ✨ Portfólio
 
-**A modern, animated portfolio website showcasing professional work and expertise**
+**Um site de portfólio moderno e animado que exibe trabalhos profissionais e expertise**
 
 [![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -10,108 +10,108 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.18-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.31.0-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-**🌐 [English](README.md) | [Português](README.pt-BR.md)**
+**🌐 [Português](README.md) | [English](README.en.md)**
 
 </div>
 
 ---
 
-## 🎯 Overview
+## 🎯 Visão Geral
 
-A beautifully designed, responsive portfolio website built with modern web technologies. Features smooth animations, dark/light theme support, and a clean grid-based layout that showcases professional experience, projects, and technical expertise.
+Um site de portfólio responsivo e bem projetado, construído com tecnologias web modernas. Possui animações suaves, suporte a temas claro/escuro e um layout limpo baseado em grid que exibe experiência profissional, projetos e expertise técnica.
 
-### ✨ Key Features
+### ✨ Principais Funcionalidades
 
-- 🎨 **Modern UI/UX** - Clean, professional design with smooth animations
-- 🌓 **Theme Toggle** - Seamless dark/light mode switching
-- 📱 **Fully Responsive** - Optimized for all screen sizes
-- ⚡ **Performance Optimized** - Built with Vite for lightning-fast builds
-- 🎭 **Smooth Animations** - Powered by Framer Motion for engaging interactions
-- 🎯 **Component-Based** - Modular architecture for easy maintenance
-
----
-
-## 🚀 Tech Stack
-
-### Core Technologies
-- **React 19.2.0** - Modern UI library
-- **TypeScript 5.9.3** - Type-safe development
-- **Vite 7.2.4** - Next-generation build tool
-- **Tailwind CSS 4.1.18** - Utility-first CSS framework
-
-### Libraries & Tools
-- **Framer Motion 12.31.0** - Animation library
-- **Lucide React 0.563.0** - Beautiful icon library
-- **ESLint** - Code quality and linting
+- 🎨 **UI/UX Moderna** - Design limpo e profissional com animações suaves
+- 🌓 **Alternância de Tema** - Troca perfeita entre modo claro e escuro
+- 📱 **Totalmente Responsivo** - Otimizado para todos os tamanhos de tela
+- ⚡ **Otimizado para Performance** - Construído com Vite para builds ultrarrápidos
+- 🎭 **Animações Suaves** - Alimentado por Framer Motion para interações envolventes
+- 🎯 **Baseado em Componentes** - Arquitetura modular para fácil manutenção
 
 ---
 
-## 📁 Project Structure
+## 🚀 Stack Tecnológico
+
+### Tecnologias Principais
+- **React 19.2.0** - Biblioteca de UI moderna
+- **TypeScript 5.9.3** - Desenvolvimento com tipagem estática
+- **Vite 7.2.4** - Ferramenta de build de próxima geração
+- **Tailwind CSS 4.1.18** - Framework CSS utility-first
+
+### Bibliotecas e Ferramentas
+- **Framer Motion 12.31.0** - Biblioteca de animações
+- **Lucide React 0.563.0** - Biblioteca de ícones bonitos
+- **ESLint** - Qualidade de código e linting
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
 portfolio/
-├── public/                 # Static assets
+├── public/                 # Assets estáticos
 ├── src/
-│   ├── assets/            # Images and media files
-│   ├── components/        # React components
-│   │   ├── CVCard.tsx     # CV download card
-│   │   ├── ProjectCard.tsx # Project showcase cards
-│   │   ├── SocialCard.tsx  # Social media links
-│   │   ├── StatusCard.tsx  # Availability status
-│   │   ├── TechStack.tsx   # Technology showcase
-│   │   └── ThemeToggle.tsx # Theme switcher
-│   ├── hooks/             # Custom React hooks
-│   │   └── useTheme.ts     # Theme management hook
-│   ├── lib/               # Utility libraries
-│   │   └── framer.ts      # Framer Motion variants
-│   ├── App.tsx            # Main application component
-│   ├── main.tsx           # Application entry point
-│   └── index.css          # Global styles
-├── package.json           # Dependencies and scripts
-├── tsconfig.json          # TypeScript configuration
-├── vite.config.ts         # Vite configuration
-└── README.md              # Project documentation
+│   ├── assets/            # Imagens e arquivos de mídia
+│   ├── components/        # Componentes React
+│   │   ├── CVCard.tsx     # Card de download do CV
+│   │   ├── ProjectCard.tsx # Cards de exibição de projetos
+│   │   ├── SocialCard.tsx  # Links de redes sociais
+│   │   ├── StatusCard.tsx  # Status de disponibilidade
+│   │   ├── TechStack.tsx   # Exibição de tecnologias
+│   │   └── ThemeToggle.tsx # Alternador de tema
+│   ├── hooks/             # Hooks customizados do React
+│   │   └── useTheme.ts     # Hook de gerenciamento de tema
+│   ├── lib/               # Bibliotecas utilitárias
+│   │   └── framer.ts      # Variantes do Framer Motion
+│   ├── App.tsx            # Componente principal da aplicação
+│   ├── main.tsx           # Ponto de entrada da aplicação
+│   └── index.css          # Estilos globais
+├── package.json           # Dependências e scripts
+├── tsconfig.json          # Configuração do TypeScript
+├── vite.config.ts         # Configuração do Vite
+└── README.md              # Documentação do projeto
 ```
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Instalação e Configuração
 
-### Prerequisites
+### Pré-requisitos
 
-- **Node.js** (v18 or higher recommended)
-- **npm** or **yarn** package manager
+- **Node.js** (v18 ou superior recomendado)
+- **npm** ou **yarn** como gerenciador de pacotes
 
-### Getting Started
+### Começando
 
-1. **Clone the repository**
+1. **Clone o repositório**
    ```bash
-   git clone <repository-url>
+   git clone <url-do-repositório>
    cd portfolio
    ```
 
-2. **Install dependencies**
+2. **Instale as dependências**
    ```bash
    npm install
    ```
 
-3. **Start development server**
+3. **Inicie o servidor de desenvolvimento**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173` (or the port shown in terminal)
+4. **Abra seu navegador**
+   Navegue até `http://localhost:5173` (ou a porta mostrada no terminal)
 
-### Build for Production
+### Build para Produção
 
 ```bash
 npm run build
 ```
 
-The production-ready files will be generated in the `dist/` directory.
+Os arquivos prontos para produção serão gerados no diretório `dist/`.
 
-### Preview Production Build
+### Visualizar Build de Produção
 
 ```bash
 npm run preview
@@ -119,121 +119,121 @@ npm run preview
 
 ---
 
-## 📦 Available Scripts
+## 📦 Scripts Disponíveis
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start development server with hot module replacement |
-| `npm run build` | Build the project for production |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint to check code quality |
+| Script | Descrição |
+|--------|-----------|
+| `npm run dev` | Inicia o servidor de desenvolvimento com hot module replacement |
+| `npm run build` | Constrói o projeto para produção |
+| `npm run preview` | Visualiza o build de produção localmente |
+| `npm run lint` | Executa ESLint para verificar a qualidade do código |
 
 ---
 
-## 🎨 Components
+## 🎨 Componentes
 
-### Hero Section
-The main introduction area featuring a personalized greeting and professional tagline.
+### Seção Hero
+A área principal de introdução com uma saudação personalizada e slogan profissional.
 
-### Social Cards
-Interactive cards linking to GitHub and LinkedIn profiles with hover animations.
+### Cards Sociais
+Cards interativos que vinculam aos perfis do GitHub e LinkedIn com animações de hover.
 
-### Status Card
-Displays current availability status with a live indicator.
+### Card de Status
+Exibe o status atual de disponibilidade com um indicador ao vivo.
 
-### CV Card
-Downloadable CV card with smooth hover effects and visual feedback.
+### Card de CV
+Card de CV para download com efeitos de hover suaves e feedback visual.
 
-### Tech Stack
-Showcases technical expertise organized by categories:
+### Stack Tecnológico
+Exibe expertise técnica organizada por categorias:
 - **Interface**: React, Next.js, TypeScript, Tailwind v4
-- **Systems**: Node.js, Fastify, PostgreSQL, NoSQL
-- **Tools**: Git, GitHub, Docker, AI-Driven Development
+- **Sistemas**: Node.js, Fastify, PostgreSQL, NoSQL
+- **Ferramentas**: Git, GitHub, Docker, Desenvolvimento Orientado por IA
 
-### Project Cards
-Featured projects with:
-- Project title and description
-- Technology tags
-- Links to live demo and source code
-- Hover animations and visual effects
-
----
-
-## 🎭 Animations
-
-The portfolio uses Framer Motion for smooth, professional animations:
-
-- **Staggered entrance animations** - Components appear sequentially
-- **Hover effects** - Interactive feedback on cards and links
-- **Theme transitions** - Smooth color transitions when switching themes
-- **Spring physics** - Natural, physics-based animations
-
-Animation variants are centralized in `src/lib/framer.ts` for consistent behavior across components.
+### Cards de Projetos
+Projetos em destaque com:
+- Título e descrição do projeto
+- Tags de tecnologias
+- Links para demonstração ao vivo e código-fonte
+- Animações de hover e efeitos visuais
 
 ---
 
-## 🎨 Theming
+## 🎭 Animações
 
-The portfolio supports both dark and light themes with:
-- CSS custom properties for dynamic theming
-- Smooth transitions between themes
-- Persistent theme preference (via localStorage)
-- Accessible color contrasts
+O portfólio usa Framer Motion para animações suaves e profissionais:
+
+- **Animações de entrada escalonadas** - Componentes aparecem sequencialmente
+- **Efeitos de hover** - Feedback interativo em cards e links
+- **Transições de tema** - Transições suaves de cores ao alternar temas
+- **Física de mola** - Animações baseadas em física natural
+
+As variantes de animação estão centralizadas em `src/lib/framer.ts` para comportamento consistente em todos os componentes.
 
 ---
 
-## 📝 Customization
+## 🎨 Temas
 
-### Updating Personal Information
+O portfólio suporta temas claro e escuro com:
+- Propriedades CSS customizadas para temas dinâmicos
+- Transições suaves entre temas
+- Preferência de tema persistente (via localStorage)
+- Contrastes de cores acessíveis
 
-1. **Hero Section** - Edit `src/App.tsx`:
+---
+
+## 📝 Personalização
+
+### Atualizando Informações Pessoais
+
+1. **Seção Hero** - Edite `src/App.tsx`:
    ```tsx
    <h1>Olá, sou Pedro.</h1>
    <p>Software Engineer com visão de produto...</p>
    ```
 
-2. **Social Links** - Update URLs in `src/App.tsx`:
+2. **Links Sociais** - Atualize as URLs em `src/App.tsx`:
    ```tsx
-   <SocialCard platform="GitHub" href="https://github.com/yourusername" />
-   <SocialCard platform="LinkedIn" href="https://linkedin.com/in/yourprofile" />
+   <SocialCard platform="GitHub" href="https://github.com/seuusuario" />
+   <SocialCard platform="LinkedIn" href="https://linkedin.com/in/seuperfil" />
    ```
 
-3. **CV File** - Place your CV PDF in `public/` and update the path in `CVCard.tsx`:
+3. **Arquivo de CV** - Coloque seu PDF de CV em `public/` e atualize o caminho em `CVCard.tsx`:
    ```tsx
    href="/seu-curriculo.pdf"
    ```
 
-4. **Projects** - Modify project cards in `src/App.tsx`:
+4. **Projetos** - Modifique os cards de projetos em `src/App.tsx`:
    ```tsx
    <ProjectCard
-     title="Your Project"
-     description="Project description..."
+     title="Seu Projeto"
+     description="Descrição do projeto..."
      tags={['Tech1', 'Tech2']}
      link="https://demo.com"
      github="https://github.com"
    />
    ```
 
-5. **Tech Stack** - Update technologies in `src/components/TechStack.tsx`
+5. **Stack Tecnológico** - Atualize as tecnologias em `src/components/TechStack.tsx`
 
 ---
 
-## 🌐 Browser Support
+## 🌐 Suporte a Navegadores
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
----
-
-## 📄 License
-
-This project is private and proprietary.
+- Chrome (mais recente)
+- Firefox (mais recente)
+- Safari (mais recente)
+- Edge (mais recente)
 
 ---
 
-## 👤 Author
+## 📄 Licença
+
+Este projeto é privado e proprietário.
+
+---
+
+## 👤 Autor
 
 **Pedro**
 
@@ -242,19 +242,19 @@ This project is private and proprietary.
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Agradecimentos
 
-- [Framer Motion](https://www.framer.com/motion/) for amazing animation capabilities
-- [Lucide](https://lucide.dev/) for beautiful icons
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [Vite](https://vitejs.dev/) for the blazing-fast build tool
+- [Framer Motion](https://www.framer.com/motion/) pelas incríveis capacidades de animação
+- [Lucide](https://lucide.dev/) pelos ícones bonitos
+- [Tailwind CSS](https://tailwindcss.com/) pelo framework CSS utility-first
+- [Vite](https://vitejs.dev/) pela ferramenta de build ultrarrápida
 
 ---
 
 <div align="center">
 
-**Built with ❤️ using React, TypeScript, and modern web technologies**
+**Construído com ❤️ usando React, TypeScript e tecnologias web modernas**
 
-⭐ Star this repo if you find it helpful!
+⭐ Dê uma estrela neste repositório se achou útil!
 
 </div>
