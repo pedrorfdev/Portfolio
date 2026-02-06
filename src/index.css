@@ -1,0 +1,30 @@
+/* @tailwind */
+
+@import "tailwindcss";
+
+@theme {
+  --color-app-bg: light-dark(#FDFDFC, #0D0D0E);
+  --color-card-bg: light-dark(#E3E3E3, #161618);
+  --color-border-main: light-dark(#F0F0F0, #232326);
+  --color-accent-main: light-dark(#4F46E5, #818CF8);
+  --color-text-main: light-dark(#1A1A1E, #EDEDEF);
+  --color-text-muted: light-dark(#687076, #9BA1A6);
+}
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  :root.light {
+    color-scheme: light
+  }
+  
+  :root.dark {
+    color-scheme: dark
+  }
+  
+  body {
+    @apply bg-app-bg text-text-main antialiased;
+  }
+}
