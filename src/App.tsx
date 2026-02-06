@@ -48,7 +48,7 @@ export function App() {
           pitch="Engine de e-commerce robusta com foco em gestão de produtos e performance de catálogo."
           description="Desenvolvi uma infraestrutura de back-end escalável, priorizando a integridade dos dados e a rapidez nas consultas de inventário. Implementação de padrões de design para suportar grandes volumes de requisições."
           tags={['Node.js', 'PostgreSQL', 'REST API', 'Docker']}
-          github="https://github.com"
+          github="https://github.com/pedrorfdev/Omni-Commerce"
         />
 
         <ProjectCard
@@ -56,7 +56,7 @@ export function App() {
           pitch="Sistema de alta disponibilidade com arquitetura modular e Injeção de Dependência."
           description="Backend desenvolvido com NestJS sob os princípios do SOLID. O foco foi criar uma aplicação de fácil manutenção e testabilidade, simulando um ambiente de produção corporativo de alto nível."
           tags={['NestJS', 'TypeScript', 'Jest', 'Clean Architecture']}
-          github="https://github.com"
+          github="https://github.com/pedrorfdev/Titan-Core-API"
         />
 
         <ProjectCard
@@ -64,8 +64,8 @@ export function App() {
           pitch="Aplicação de gestão financeira com persistência de dados e controle de transações."
           description="Uma ferramenta para controle de fluxo de caixa que utiliza gerenciamento de estado global para cálculos em tempo real. Implementei persistência de dados local para garantir que a experiência do usuário seja contínua e resiliente a recarregamentos."
           tags={['React', 'Styled Components', 'Context API', 'Local Storage Persistence']}
-          link="https://demo2.com"
-          github="https://github.com"
+          link="https://flow-money-one.vercel.app/"
+          github="https://github.com/pedrorfdev/Money-Flow"
         />
 
         <ProjectCard
@@ -73,17 +73,17 @@ export function App() {
           pitch="Plataforma institucional multi-página para arquitetura, com foco em navegação fluida e design minimalista."
           description="Desenvolvi uma experiência completa de navegação para escritórios de arquitetura. O projeto foca em arquitetura de informação e layouts responsivos complexos, garantindo uma presença digital sólida e elegante."
           tags={['React', 'Tailwind CSS', 'Multi-page Navigation', 'Performance']}
-          link="https://demo2.com"
-          github="https://github.com"
+          link="https://modern-arq-portfolio.vercel.app"
+          github="https://github.com/pedrorfdev/Modern-Arq-Portfolio"
         />
 
         <ProjectCard
-          title="Bento Portfolio v2"
+          title="Bento Portfolio"
           pitch="Experiência imersiva em Bento Grid com animações coreografadas e Dark Mode."
           description="Meu cartão de visitas técnico. Utilizei as tecnologias mais recentes do ecossistema React para criar uma interface que equilibra estética, performance e acessibilidade."
           tags={['React', 'Tailwind v4', 'Framer Motion', 'TypeScript']}
-          link="https://demo2.com"
-          github="https://github.com"
+          link="https://pedroferreira-dev.vercel.app/"
+          github="https://github.com/pedrorfdev/Bento-Portfolio"
         />
 
       </main>
